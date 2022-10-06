@@ -1,0 +1,38 @@
+.flex-container {
+  height: 25%;
+  width: 100%;
+  border: 2px solid black;
+  display: flex;
+  background-color: blue;
+}
+.flex-container2 {
+  height: 25%;
+  width: 100%;
+  border: 2px solid white;
+  display: flex;
+  background-color: black;
+  color: white;
+}
+.flex-container3 {
+  height: 25%;
+  width: 100%;
+  border: 2px solid white;
+  display: flex;
+  background-color: red;
+  color: white;
+}
+footer  {
+  background-color: yellow;
+  height: 25%;
+  width: 100%;
+}
+.item {
+  display: inline-flex;
+  border: 2px solid black;
+  flex-direction: row;
+}
+.nav-item {
+  display: flex-box;
+  border: 2px dotted white;
+  text-align: right;
+}
