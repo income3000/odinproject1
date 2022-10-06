@@ -3,7 +3,10 @@
   width: 100%;
   border: 2px solid black;
   display: flex;
-  background-color: blue;
+  background-color: navy;
+  color: white;
+
+
 }
 .flex-container2 {
   height: 25%;
@@ -12,6 +15,9 @@
   display: flex;
   background-color: black;
   color: white;
+  display: flex;
+  gap: 2px;
+  flex-direction: row;
 }
 .flex-container3 {
   height: 25%;
@@ -26,13 +32,27 @@ footer  {
   height: 25%;
   width: 100%;
 }
-.item {
-  display: inline-flex;
+.flex-item {
+  display: flex 1;
+  align-items: flex-start;
   border: 2px solid black;
-  flex-direction: row;
+  flex-direction: column;
 }
 .nav-item {
-  display: flex-box;
+  display: inline-flex;
   border: 2px dotted white;
-  text-align: right;
+  text-align: center;
+  width: auto;
+  height: auto;
+}
+.placeholder {
+  background: grey;
+  border: 1px solid black;
+  width: auto;
+  height: auto;
+
+}
+.hLogo {
+  background-color: navy;
+  color:white
 }
